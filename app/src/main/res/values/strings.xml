@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Voc</string>
+    <string name="learn">Learn</string>
+    <string name="quiz">Quiz</string>
+    <string name="add_word">Add Word</string>
+    <string name="word">Word</string>
+    <string name="contribute">Contribute</string>
+    <string name="verb">verb</string>
+    <string name="contribute_mean">To give something, especially money, in order to provide or achieve something together with other people.</string>
+    <string name="donate">Donate</string>
+    <string name="refuse">Refuse</string>
+    <string name="synonym">Synonym</string>
+    <string name="antonym">Antonym</string>
+    <string name="sentence">She contributes to several magazines.</string>
+    <string name="next">next</string>
+    <string name="question_1">Question 1</string>
+    <string name="_1">1</string>
+    <string name="image">image</string>
+    <string name="mean">Mean</string>
+    <string name="et_sentence">Sentence</string>
+    <string name="type">Type</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">add</string>
+</resources>

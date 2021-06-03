@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>Contribute</item>
+        <item>Enhance</item>
+        <item>Consider</item>
+        <item>Damage</item>
+        <item>Divide</item>
+        <item>Enable</item>
+        <item>Flood</item>
+        <item>Imagine</item>
+        <item>Knock</item>
+        <item>Motivate</item>
+
+        <item>Acceptably</item>
+        <item>Annually</item>
+        <item>Cognitively</item>
+        <item>Developmentally</item>
+        <item>Economically</item>
+        <item>Frequently</item>
+        <item>Correctly</item>
+        <item>Late</item>
+        <item>Obviously</item>
+        <item>Properly</item>
+
+        <item>Absent</item>
+        <item>Effective</item>
+        <item>Bacterial</item>
+        <item>Blank</item>
+        <item>Charitable</item>
+        <item>Defensive</item>
+        <item>Freezing</item>
+        <item>Individual</item>
+        <item>Visible</item>
+        <item>Mysterious</item>
+
+        <item>The best of both worlds.</item>
+        <item>Speak of the devil.</item>
+        <item>See eye to eye.</item>
+        <item>Once in a blue moon.</item>
+        <item>When pigs fly.</item>
+        <item>To cost an arm and a leg.</item>
+        <item>A piece of cake.</item>
+        <item>Let the cat out of the bag.</item>
+        <item>To feel under the weather.</item>
+        <item>To kill two birds with one stone.</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+        <item>Verb</item>
+
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+        <item>Adverb</item>
+
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+        <item>Adjective</item>
+
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+        <item>Phrase and Idiom</item>
+    </string-array>
+    <string-array name="means">
+        <item>To give something, especially money, in order to provide or achieve something together with other people.</item>
+        <item>To improve the quality, amount, or strength of something.</item>
+        <item>To spend time thinking about a possibility or making a decision.</item>
+        <item>To harm or spoil something.</item>
+        <item>To (cause to) separate into parts or groups.</item>
+        <item>To make someone able to do something, or to make something possible.</item>
+        <item>To cause to fill or become covered with water, especially in a way that causes problems.</item>
+        <item>To form or have a mental picture or idea of something.</item>
+        <item>To repeatedly hit something, producing a noise.</item>
+        <item>To cause someone to behave in a particular way.</item>
+
+        <item>In an adequate or satisfactory way.</item>
+        <item>Once every year.</item>
+        <item>In a way that relates to or affects cognition.</item>
+        <item>In a way that relates to the development of someone or something.</item>
+        <item>In a way that relates to economics or finance.</item>
+        <item>Regularly or habitually; often.</item>
+        <item>In a way that is true, factual or appropriate; accurately.</item>
+        <item>Doing something or taking place after the expected, proper, or usual time.</item>
+        <item>In a way that is easily perceived or understood; clearly.</item>
+        <item>Correctly or satisfactorily.</item>
+
+        <item>Not present in a place, at an occasion, or as part of something.</item>
+        <item>Successful in producing a desired or intended result.</item>
+        <item>Relating to or caused by bacteria.</item>
+        <item>(of a surface or background) Unrelieved by decorative or other features; bare, empty, or plain.</item>
+        <item>Relating to the assistance of those in need.</item>
+        <item>Used or intended to defend or protect.</item>
+        <item>below 32°F (0°C).</item>
+        <item>Single; separate.</item>
+        <item>Able to be seen.</item>
+        <item>Difficult or impossible to understand, explain, or identify.</item>
+
+        <item>Means you can enjoy two different opportunities at the same time.</item>
+        <item>This means that the person you’re just talking about actually appears at that moment.</item>
+        <item>This means agreeing with someone.</item>
+        <item>An event that happens infrequently.</item>
+        <item>Something that will never happen.</item>
+        <item>Something is very expensive.</item>
+        <item>Something is very easy.</item>
+        <item>To accidentally reveal a secret.</item>
+        <item>To not feel well.</item>
+        <item>To solve two problems at once.</item>
+    </string-array>
+    <string-array name="synonyms">
+        <item>Conduce</item>
+        <item>Aggravate</item>
+        <item>Attend</item>
+        <item>Injury</item>
+        <item>Partition</item>
+        <item>Empower</item>
+        <item>Inundate</item>
+        <item>Ideate</item>
+        <item>Whack</item>
+        <item>Incite</item>
+
+        <item>Tolerably</item>
+        <item>Yearly</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Financially</item>
+        <item>Economically</item>
+        <item>Right</item>
+        <item>Former</item>
+        <item>Evidently</item>
+        <item>Aright</item>
+
+        <item>Away</item>
+        <item>Successful</item>
+        <item>-</item>
+        <item>Lacuna</item>
+        <item>Charitable</item>
+        <item>Defensive Attitude</item>
+        <item>Frost</item>
+        <item>Somebody</item>
+        <item>Seeable</item>
+        <item>Cryptic</item>
+
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="antonyms">
+        <item>Refuse</item>
+        <item>Abate</item>
+        <item>Disregard</item>
+        <item>Compensation</item>
+        <item>Multiply</item>
+        <item>Disable</item>
+        <item>Drought</item>
+        <item>Ascertain</item>
+        <item>-</item>
+        <item>Demotivate</item>
+
+        <item>Unacceptably</item>
+        <item>-</item>
+        <item>Emotionally</item>
+        <item>Statically</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Incorrectly</item>
+        <item>Advance</item>
+        <item>Vaguely</item>
+        <item>Improperly</item>
+
+        <item>Present</item>
+        <item>Ineffective</item>
+        <item>Eukaryotic</item>
+        <item>Loaded</item>
+        <item>Self-centered</item>
+        <item>Offensive</item>
+        <item>Ardent</item>
+        <item>Collective</item>
+        <item>Invisible</item>
+        <item>Clear</item>
+
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="sentences">
+        <item>Are not you going to contribute towards Jack is leaving present?</item>
+        <item>It is things like this that enhance the quality of life.</item>
+        <item>Do not make any decisions before you have considered the situation.</item>
+        <item>Smoking is likely to damage your health permanently.</item>
+        <item>Knead the dough well, then divide it into four pieces.</item>
+        <item>Some tests enable you to find out the sex of your baby before it is born.</item>
+        <item>When the river flooded, the footbridge was swept away.</item>
+        <item>Imagine Robert Redford when he was young - that is what John looks like.</item>
+        <item>I wish he would knock instead of just barging in.</item>
+        <item>Like so many people, he is motivated by greed.</item>
+
+        <item>He did not believe driver behavior could be improved sufficiently to make the junction acceptably safe.</item>
+        <item>The prize is awarded annually.</item>
+        <item>It serves as a distraction from cognitively demanding tasks.</item>
+        <item>Hunger is leaving millions of children developmentally delayed.</item>
+        <item>The region is important economically.</item>
+        <item>They go abroad frequently.</item>
+        <item>She correctly answered eight questions.</item>
+        <item>They won the game with a late goal.</item>
+        <item>She was obviously sick.</item>
+        <item>Algebra is, properly speaking, the analysis of equations.</item>
+
+        <item>Most students were absent from school at least once.</item>
+        <item>Effective solutions to environmental problems.</item>
+        <item>A bacterial infection.</item>
+        <item>A blank wall.</item>
+        <item>Charitable works such as care of the sick.</item>
+        <item>Troops in defensive positions</item>
+        <item>Strong winds and freezing temperatures.</item>
+        <item>Individual tiny flowers.</item>
+        <item>The church spire is visible from miles away.</item>
+        <item>His colleague had vanished in mysterious circumstances.</item>
+
+        <item>By working part-time and looking after her kids two days a week she managed to get the best of both worlds.</item>
+        <item>Hi Tom, speak of the devil, I was just telling Sara about your new car.</item>
+        <item>They finally saw eye to eye on the business deal.</item>
+        <item>I only go to the cinema once in a blue moon.</item>
+        <item>When pigs fly she’ll tidy up her room.</item>
+        <item>Fuel these days costs and arm and a leg.</item>
+        <item>The English test was a piece of cake.</item>
+        <item>I let the cat out of the bag about their wedding plans.</item>
+        <item>I’m really feeling under the weather today; I have a terrible cold.</item>
+        <item>By taking my dad on holiday, I killed two birds with one stone. I got to go away but also spend time with him.</item>
+    </string-array>
+</resources>

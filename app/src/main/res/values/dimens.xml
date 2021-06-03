@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="radius16">16dp</dimen>
+    <dimen name="elevation4">4dp</dimen>
+    <dimen name="text_size18">18sp</dimen>
+    <dimen name="padding4">4dp</dimen>
+    <dimen name="text_size12">12sp</dimen>
+    <dimen name="text_size24">24sp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="margin4">4dp</dimen>
+    <dimen name="text_size16">16sp</dimen>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1b"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin16"
+        android:layout_marginRight="@dimen/margin16"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buttonLearn"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_margin="@dimen/margin16"
+            android:backgroundTint="#688de2"
+            android:clickable="true"
+            android:elevation="@dimen/elevation4"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/radius16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/learn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size24"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/margin4"
+                android:contentDescription="@string/image"
+                android:src="@drawable/ic_reading" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buttonQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_margin="@dimen/margin16"
+            android:backgroundTint="#61c294"
+            android:clickable="true"
+            android:elevation="@dimen/elevation4"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/radius16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/quiz"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size24"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/margin4"
+                android:contentDescription="@string/image"
+                android:src="@drawable/ic_choose" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/margin16"
+        android:contentDescription="@string/next"
+        android:src="@drawable/ic_baseline_add_24"
+        app:backgroundTint="#da714f"
+        app:borderWidth="0dp"
+        app:useCompatPadding="true" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/add/baseline_add_24.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/check/baseline_check_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,9 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_crossword" />
-                            <entry key="sourceFile" value="C:\Users\SNN\Desktop\crossword.svg" />
+                            <entry key="outputName" value="ic_baseline_check_24" />
+                            <entry key="sourceFile" value="C:\Users\SNN\Desktop\abc.svg" />
                           </map>
                         </option>
                       </PersistentState>

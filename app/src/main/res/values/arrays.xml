@@ -34,16 +34,16 @@
         <item>Visible</item>
         <item>Mysterious</item>
 
-        <item>The best of both worlds.</item>
-        <item>Speak of the devil.</item>
-        <item>See eye to eye.</item>
-        <item>Once in a blue moon.</item>
-        <item>When pigs fly.</item>
-        <item>To cost an arm and a leg.</item>
-        <item>A piece of cake.</item>
-        <item>Let the cat out of the bag.</item>
-        <item>To feel under the weather.</item>
-        <item>To kill two birds with one stone.</item>
+        <item>The best of both worlds</item>
+        <item>Speak of the devil</item>
+        <item>See eye to eye</item>
+        <item>Once in a blue moon</item>
+        <item>When pigs fly</item>
+        <item>To cost an arm and a leg</item>
+        <item>A piece of cake</item>
+        <item>Let the cat out of the bag</item>
+        <item>To feel under the weather</item>
+        <item>To kill two birds with one stone</item>
     </string-array>
     <string-array name="categories">
         <item>Verb</item>
@@ -91,49 +91,49 @@
         <item>Phrase and Idiom</item>
     </string-array>
     <string-array name="means">
-        <item>To give something, especially money, in order to provide or achieve something together with other people.</item>
-        <item>To improve the quality, amount, or strength of something.</item>
-        <item>To spend time thinking about a possibility or making a decision.</item>
-        <item>To harm or spoil something.</item>
-        <item>To (cause to) separate into parts or groups.</item>
-        <item>To make someone able to do something, or to make something possible.</item>
-        <item>To cause to fill or become covered with water, especially in a way that causes problems.</item>
-        <item>To form or have a mental picture or idea of something.</item>
-        <item>To repeatedly hit something, producing a noise.</item>
-        <item>To cause someone to behave in a particular way.</item>
+        <item>To give something, especially money, in order to provide or achieve something together with other people</item>
+        <item>To improve the quality, amount, or strength of something</item>
+        <item>To spend time thinking about a possibility or making a decision</item>
+        <item>To harm or spoil something</item>
+        <item>To (cause to) separate into parts or groups</item>
+        <item>To make someone able to do something, or to make something possible</item>
+        <item>To cause to fill or become covered with water, especially in a way that causes problems</item>
+        <item>To form or have a mental picture or idea of something</item>
+        <item>To repeatedly hit something, producing a noise</item>
+        <item>To cause someone to behave in a particular way</item>
 
-        <item>In an adequate or satisfactory way.</item>
+        <item>In an adequate or satisfactory way</item>
         <item>Once every year.</item>
-        <item>In a way that relates to or affects cognition.</item>
-        <item>In a way that relates to the development of someone or something.</item>
-        <item>In a way that relates to economics or finance.</item>
+        <item>In a way that relates to or affects cognition</item>
+        <item>In a way that relates to the development of someone or something</item>
+        <item>In a way that relates to economics or finance</item>
         <item>Regularly or habitually; often.</item>
         <item>In a way that is true, factual or appropriate; accurately.</item>
-        <item>Doing something or taking place after the expected, proper, or usual time.</item>
-        <item>In a way that is easily perceived or understood; clearly.</item>
+        <item>Doing something or taking place after the expected, proper, or usual time</item>
+        <item>In a way that is easily perceived or understood; clearly</item>
         <item>Correctly or satisfactorily.</item>
 
-        <item>Not present in a place, at an occasion, or as part of something.</item>
-        <item>Successful in producing a desired or intended result.</item>
-        <item>Relating to or caused by bacteria.</item>
-        <item>(of a surface or background) Unrelieved by decorative or other features; bare, empty, or plain.</item>
-        <item>Relating to the assistance of those in need.</item>
+        <item>Not present in a place, at an occasion, or as part of something</item>
+        <item>Successful in producing a desired or intended result</item>
+        <item>Relating to or caused by bacteria</item>
+        <item>(of a surface or background) Unrelieved by decorative or other features; bare, empty, or plain</item>
+        <item>Relating to the assistance of those in need</item>
         <item>Used or intended to defend or protect.</item>
-        <item>below 32°F (0°C).</item>
-        <item>Single; separate.</item>
-        <item>Able to be seen.</item>
-        <item>Difficult or impossible to understand, explain, or identify.</item>
+        <item>below 32°F (0°C)</item>
+        <item>Single; separate</item>
+        <item>Able to be seen</item>
+        <item>Difficult or impossible to understand, explain, or identify</item>
 
-        <item>Means you can enjoy two different opportunities at the same time.</item>
-        <item>This means that the person you’re just talking about actually appears at that moment.</item>
-        <item>This means agreeing with someone.</item>
-        <item>An event that happens infrequently.</item>
-        <item>Something that will never happen.</item>
-        <item>Something is very expensive.</item>
-        <item>Something is very easy.</item>
-        <item>To accidentally reveal a secret.</item>
-        <item>To not feel well.</item>
-        <item>To solve two problems at once.</item>
+        <item>Means you can enjoy two different opportunities at the same time</item>
+        <item>This means that the person you’re just talking about actually appears at that moment</item>
+        <item>This means agreeing with someone</item>
+        <item>An event that happens infrequently</item>
+        <item>Something that will never happen</item>
+        <item>Something is very expensive</item>
+        <item>Something is very easy</item>
+        <item>To accidentally reveal a secret</item>
+        <item>To not feel well</item>
+        <item>To solve two problems at once</item>
     </string-array>
     <string-array name="synonyms">
         <item>Conduce</item>

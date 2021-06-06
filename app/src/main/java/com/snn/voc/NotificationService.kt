@@ -2,28 +2,37 @@ package com.snn.voc
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
+import android.app.PendingIntent
 import android.app.Service
 import android.content.Intent
 import android.os.Build
 import android.os.Handler
 import android.os.IBinder
+import android.util.Log
 import androidx.core.app.NotificationCompat
 import java.util.*
 
 
 class NotificationService : Service() {
-
+    /* I will set first notification time */
     private val notificationChannelID = "10001"
     private val defaultNotificationChannelID = "default"
     private val handler: Handler = Handler()
 
     private var timer: Timer? = null
     private var timerTask: TimerTask? = null
-    private var milliSeconds: Long = 4320000
+    private var milliSeconds: Long = 43200000
 
 
     override fun onBind(arg0: Intent?): IBinder? {
         return null
+    }
+
+    override fun onTaskRemoved(rootIntent: Intent?) {
+        val restartServiceIntent = Intent(applicationContext, this.javaClass)
+        restartServiceIntent.setPackage(packageName)
+        startService(restartServiceIntent)
+        super.onTaskRemoved(rootIntent)
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -34,7 +43,7 @@ class NotificationService : Service() {
                 handler.post { createNotification() }
             }
         }
-        timer!!.schedule(timerTask, 1, milliSeconds)
+        timer!!.schedule(timerTask, 60000, milliSeconds)
         return START_STICKY
     }
 
@@ -45,16 +54,26 @@ class NotificationService : Service() {
             timer!!.cancel()
             timer = null
         }
+        Log.e("TAG", "onDestroy: ")
         super.onDestroy()
     }
 
     private fun createNotification() {
-        val mNotificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
-        val mBuilder = NotificationCompat.Builder(applicationContext, defaultNotificationChannelID)
-        mBuilder.setContentTitle("Anan")
-        mBuilder.setContentText("Hey! You Should See This Word.")
-        mBuilder.setSmallIcon(R.drawable.ic_baseline_add_24)
-        mBuilder.setAutoCancel(true)
+        val intent = Intent(this, NotificationActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        }
+        val pendingIntent = PendingIntent.getActivity(this, 0, intent, 0)
+
+        val builder =
+            NotificationCompat
+                .Builder(this, defaultNotificationChannelID)
+                .setContentTitle("Voc")
+                .setContentText("Hey, is there a word you need to remember?")
+                .setSmallIcon(R.drawable.ic_reading)
+                .setAutoCancel(true)
+                .setContentIntent(pendingIntent)
+
+        val notificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val importance = NotificationManager.IMPORTANCE_HIGH
             val notificationChannel = NotificationChannel(
@@ -62,9 +81,9 @@ class NotificationService : Service() {
                 "NOTIFICATION_CHANNEL_NAME",
                 importance
             )
-            mBuilder.setChannelId(notificationChannelID)
-            mNotificationManager.createNotificationChannel(notificationChannel)
+            builder.setChannelId(notificationChannelID)
+            notificationManager.createNotificationChannel(notificationChannel)
         }
-        mNotificationManager.notify(System.currentTimeMillis().toInt(), mBuilder.build())
+        notificationManager.notify(System.currentTimeMillis().toInt(), builder.build())
     }
 }

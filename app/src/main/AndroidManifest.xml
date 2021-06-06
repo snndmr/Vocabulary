@@ -3,6 +3,7 @@
     package="com.snn.voc">
 
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -25,7 +26,15 @@
 
         <service
             android:name=".NotificationService"
-            android:label="NotificationService"/>
+            android:enabled="true"
+            android:exported="false"
+            android:label="NotificationService">
+            <intent-filter>
+                <action android:name="com.snn.voc.NotificationService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class AnswerAdapter(private val words: ArrayList<Word>, clickListener: IClickListener) :
-    RecyclerView.Adapter<AnswerAdapter.Holder>() {
+class TypeAdapter (private val types: ArrayList<String>, clickListener: IClickListener) :
+    RecyclerView.Adapter<TypeAdapter.Holder>() {
 
     private var clickListener: IClickListener? = clickListener
 
@@ -17,24 +17,24 @@ class AnswerAdapter(private val words: ArrayList<Word>, clickListener: IClickLis
     }
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
-        holder.bindItems(words[position], position, clickListener)
+        holder.bindItems(types[position], position, clickListener)
     }
 
     override fun getItemCount(): Int {
-        return words.size
+        return types.size
     }
 
     class Holder(view: View) : RecyclerView.ViewHolder(view) {
         fun bindItems(
-            word: Word,
+            type: String,
             position: Int,
             clickListener: IClickListener?
         ) {
             val cardText = itemView.findViewById(R.id.text_view_answer) as TextView
-            cardText.text = word.name
+            cardText.text = type
 
             itemView.setOnClickListener {
-                clickListener?.listener("answer", position)
+                clickListener?.listener("type", position)
             }
         }
     }

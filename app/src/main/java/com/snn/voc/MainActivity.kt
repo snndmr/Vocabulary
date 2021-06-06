@@ -1,5 +1,6 @@
 package com.snn.voc
 
+import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
@@ -14,6 +15,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     private val databaseHelper = DatabaseHelper(this)
 
+    @SuppressLint("ShowToast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -84,25 +86,30 @@ class MainActivity : AppCompatActivity() {
 
     private fun initDatabase() {
         val names = this.resources.getStringArray(R.array.words)
-        val categories = this.resources.getStringArray(R.array.categories)
-        val means = this.resources.getStringArray(R.array.means)
-        val synonyms = this.resources.getStringArray(R.array.synonyms)
-        val antonyms = this.resources.getStringArray(R.array.antonyms)
-        val sentences = this.resources.getStringArray(R.array.sentences)
 
-        for (i in names.indices) {
-            databaseHelper.insertData(
-                Word(
-                    0,
-                    names[i],
-                    categories[i],
-                    means[i],
-                    synonyms[i],
-                    antonyms[i],
-                    sentences[i],
-                    0
+        if (databaseHelper.readData().size < names.size) {
+            databaseHelper.deleteAllData()
+
+            val categories = this.resources.getStringArray(R.array.categories)
+            val means = this.resources.getStringArray(R.array.means)
+            val synonyms = this.resources.getStringArray(R.array.synonyms)
+            val antonyms = this.resources.getStringArray(R.array.antonyms)
+            val sentences = this.resources.getStringArray(R.array.sentences)
+
+            for (i in names.indices) {
+                databaseHelper.insertData(
+                    Word(
+                        0,
+                        names[i],
+                        categories[i],
+                        means[i],
+                        synonyms[i],
+                        antonyms[i],
+                        sentences[i],
+                        0
+                    )
                 )
-            )
+            }
         }
     }
 }

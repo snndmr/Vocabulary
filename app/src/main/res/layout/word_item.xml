@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/margin16"
+    android:backgroundTint="#1b1b1b"
+    app:cardCornerRadius="@dimen/radius16"
+    app:cardElevation="@dimen/elevation4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding16">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin16"
+            android:backgroundTint="#323232"
+            app:cardCornerRadius="@dimen/radius16"
+            app:cardElevation="@dimen/elevation4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/padding16">
+
+                <TextView
+                    android:id="@+id/text_view_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16"
+                    android:text="@string/contribute"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verb"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/text_view_mean"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16"
+                    android:layout_marginBottom="@dimen/margin16"
+                    android:text="@string/contribute_mean"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size18" />
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/margin4"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/ic_abc" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="@dimen/margin16"
+                android:layout_weight="1"
+                android:backgroundTint="#323232"
+                android:orientation="horizontal"
+                app:cardCornerRadius="@dimen/radius16"
+                app:cardElevation="@dimen/elevation4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="@android:color/holo_green_dark"
+                        android:padding="@dimen/padding4"
+                        android:text="@string/synonym"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size18"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/text_view_synonym"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/donate"
+                        android:textAlignment="inherit"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size18"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="@dimen/margin16"
+                android:layout_weight="1"
+                android:backgroundTint="#323232"
+                android:orientation="horizontal"
+                app:cardCornerRadius="@dimen/radius16"
+                app:cardElevation="@dimen/elevation4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="@android:color/holo_red_dark"
+                        android:padding="@dimen/padding4"
+                        android:text="@string/antonym"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size18"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/text_view_antonym"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/refuse"
+                        android:textAlignment="inherit"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size18"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="@dimen/margin16"
+            android:backgroundTint="#323232"
+            android:orientation="horizontal"
+            app:cardCornerRadius="@dimen/radius16"
+            app:cardElevation="@dimen/elevation4">
+
+            <TextView
+                android:id="@+id/text_view_sentence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="@string/sentence"
+                android:textAlignment="inherit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size18" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
